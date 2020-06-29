@@ -1,0 +1,54 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/dist-es2015
+/build
+/compiled
+packages/**/dist/*
+packages/**/dist-es2015/*
+/bundle
+packages/**/bundle/*
+/tmp
+/out-tsc
+/package-lock.json
+package-lock.json
+jest-html-report/
+
+# dependencies
+/node_modules
+/coverage
+/components/
+/*/node_modules/*
+packages/**/node_modules/*
+packages/**/coverage/*
+.bitmap
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+!.vscode/tasks.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db

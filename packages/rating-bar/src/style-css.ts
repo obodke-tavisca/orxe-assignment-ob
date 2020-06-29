@@ -1,0 +1,41 @@
+import {css} from 'lit-element';
+export default css`
+.donut-rating {
+    width: 40px;
+    height: 40px;
+    margin: 1em auto;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--rating-bar-linear-rating-info-font-size);
+    color: var(--rating-bar-label-color);
+}
+.linear-rating-bar {
+    height: 8px;
+    position: relative;
+    background: var(--rating-bar-background-color);
+    border-radius: 25px;
+}
+.linear-rating-bar span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+}
+.linear-rating-bar-info {
+    font-family: var(--rating-bar-font-family);
+    font-size: var(--rating-bar-donut-rating-info-font-size);
+    font-weight: var(--rating-bar-font-weight);
+    color: var(--rating-bar-label-color);
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+`;

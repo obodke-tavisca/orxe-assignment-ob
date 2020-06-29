@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist-package",
+    "rootDir": "./src",
+    "declarationDir": "./dist-package/types",
+  },
+  "extends": "../../tsconfig"
+}
