@@ -5,11 +5,11 @@ This component is created under packages folder.
 Documentation related to component is added in README.md fie
 
 ## 2. Pagination
-Here are some points that we observes
+Here are some points that we observe
 1. Previous button should be there in disabled mode
 2. We should have support or design for pages which are in 2 digits eg. 40 or 50 pages.
-   This design does not provide idea about such scenarios.
+   This design does not provide an idea about such scenarios.
 3. We can specify or make optional to display pagination in the box.
 4. Showing label should be there eg. if user is on page 5 then we can show him message like showing 51 to 60.
-5. Jump button should be there if required, so we can jump from first page to last or some where in the middle.
+5. Jump button should be there if required, so we can jump from first page to last or somewhere in the middle.
 
